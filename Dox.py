@@ -25,28 +25,28 @@ def confirm_action():
 
     if confirm_choice == "Y":
         print("Подтверждено. Открываем ссылку...")
-        webbrowser.open("https://ru.textstudio.com/")
+        webbrowser.open("https://ua.xxxi.porn/video/15409")
     elif confirm_choice == "N":
         print("Действие отменено.")
     else:
         print("Неверный выбор. Попробуйте снова.")
-        confirm_action()  # Повторный запрос, если ввод неправильный
+        confirm_action()  
 
 def main_menu():
     print("Выберите действие:")
     print("1. ДоXинг по Тg")
     print("2. Dоксинг по номеру")
 
-    # Ожидание нажатия клавиши 1 или 2
+    
     choice = msvcrt.getch().decode('utf-8')
 
     if choice == "1":
-        confirm_action()  # Запрос подтверждения для действия 1
+        confirm_action()  
     elif choice == "2":
         print("Вы выбрали Dоксинг по номеру.")
     else:
         print("Неверный выбор. Попробуйте снова.")
 
 if __name__ == "__main__":
-    display_ascii_art()  # Отображение ASCII-арта
-    main_menu()          # Переход к выбору действия
+    display_ascii_art()  
+    main_menu()          
